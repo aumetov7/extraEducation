@@ -47,6 +47,11 @@ public class User implements UserDetails {
             fetch = FetchType.LAZY)
     private Set<School> schools;
 
+//    @OneToOne(mappedBy = "author",
+//            cascade = CascadeType.ALL,
+//            fetch = FetchType.LAZY)
+//    private School currentSchool;
+
     @ManyToMany
     @JoinTable(
             name = "user_subscriptions",

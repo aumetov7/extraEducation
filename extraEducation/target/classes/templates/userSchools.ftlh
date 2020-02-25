@@ -43,7 +43,7 @@
         <#list schools as school>
             <div class="m-2">
                 <#if school.filename??>
-                    <img src="/img/${school.filename}" class="rounded mx-auto d-block">
+                    <img src="/img/${school.filename}" class="w-50 p-3 rounded mx-auto d-block">
                 </#if>
             </div>
                 <div>

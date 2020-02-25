@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d897384d-0648-4722-a384-0dc3e43ff6f8" name="Default Changelist" comment="" />
+    <list default="true" id="d897384d-0648-4722-a384-0dc3e43ff6f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userSchools.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userSchools.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/extraEducation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/MainController 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/UserController 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/domain/User 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userSchools.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userSchools.ftlh" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -39,16 +51,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1WROyG3GN2ZEqUopoGHTYnX8PPp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServingWebContentApplication">
+  <component name="RunManager" selected="JUnit.MainControllerTest">
     <configuration name="All in extraEducation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="extraEducation" />
       <option name="PACKAGE_NAME" value="" />
@@ -141,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainControllerTest" />
+        <item itemvalue="JUnit.LoginTest and 1 more" />
         <item itemvalue="Spring Boot.ServingWebContentApplication" />
         <item itemvalue="JUnit.All in extraEducation" />
-        <item itemvalue="JUnit.LoginTest and 1 more" />
         <item itemvalue="JUnit.com.aumetov.extraEducation in extraEducation" />
-        <item itemvalue="JUnit.MainControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,10 +192,32 @@
       <workItem from="1582116578477" duration="496000" />
       <workItem from="1582243242894" duration="38000" />
       <workItem from="1582270828712" duration="7773000" />
+      <workItem from="1582650098962" duration="498000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

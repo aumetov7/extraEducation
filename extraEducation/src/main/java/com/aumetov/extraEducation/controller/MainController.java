@@ -7,7 +7,6 @@ import com.aumetov.extraEducation.repository.UserRepository;
 import com.aumetov.extraEducation.service.SchoolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -45,7 +44,6 @@ public class MainController {
         return "greeting";
     }
 
-    @PreAuthorize("hasAuthority('USER') || hasAuthority('DIRECTOR')")
     @GetMapping("/main")
     public String main(@RequestParam(required = false, defaultValue = "") String filter, Model model) {
         Iterable<School> schools = schoolRepository.findAll();
@@ -107,7 +105,6 @@ public class MainController {
         }
     }
 
-    @PreAuthorize("hasAuthority('USER') || hasAuthority('DIRECTOR')")
     @GetMapping("/user-schools/{user}")
     public String userSchools(@AuthenticationPrincipal User currentUser,
                               @PathVariable User user,
@@ -154,6 +151,8 @@ public class MainController {
 
             schoolRepository.save(school);
         }
+
+//        deleteSchool(school);
 
         return "redirect:/user-schools/" + user.getId();
     }
