@@ -39,6 +39,6 @@ public class MainControllerTest {
         this.mockMvc.perform(get("/main").param("filter", "математика"))
                 .andDo(print())
                 .andExpect(authenticated())
-                .andExpect(xpath("//div[@id='school-list']/div").nodeCount(3));
+                .andExpect(xpath("//div[@id='school-list']/div").nodeCount(2));
     }
 }

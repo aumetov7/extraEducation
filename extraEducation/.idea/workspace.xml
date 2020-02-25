@@ -49,7 +49,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -78,17 +78,21 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ServingWebContentApplication">
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in extraEducation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="extraEducation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aumetov.extraEducation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aumetov.extraEducation" />
-      <option name="MAIN_CLASS_NAME" value="com.aumetov.extraEducation.LoginTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="extraEducation" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="com.aumetov.extraEducation.LoginTest" />
+        <pattern testClass="com.aumetov.extraEducation.MainControllerTest" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,22 +108,6 @@
       <option name="PACKAGE_NAME" value="com.aumetov.extraEducation" />
       <option name="MAIN_CLASS_NAME" value="com.aumetov.extraEducation.MainControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainControllerTest.addMessageToListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="extraEducation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aumetov.extraEducation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.aumetov.extraEducation" />
-      <option name="MAIN_CLASS_NAME" value="com.aumetov.extraEducation.MainControllerTest" />
-      <option name="METHOD_NAME" value="addMessageToListTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ServingWebContentApplication" />
-        <item itemvalue="JUnit.MainControllerTest" />
+        <item itemvalue="JUnit.All in extraEducation" />
+        <item itemvalue="JUnit.LoginTest and 1 more" />
         <item itemvalue="JUnit.com.aumetov.extraEducation in extraEducation" />
-        <item itemvalue="JUnit.MainControllerTest.addMessageToListTest" />
-        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.MainControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +169,15 @@
       <workItem from="1580525509826" duration="23000" />
       <workItem from="1580525702950" duration="120000" />
       <workItem from="1580525848713" duration="7174000" />
+      <workItem from="1580903337919" duration="37000" />
+      <workItem from="1580910684554" duration="1301000" />
+      <workItem from="1581338255405" duration="1027000" />
+      <workItem from="1581340137357" duration="122000" />
+      <workItem from="1581947475370" duration="9052000" />
+      <workItem from="1582112352566" duration="1019000" />
+      <workItem from="1582116578477" duration="496000" />
+      <workItem from="1582243242894" duration="38000" />
+      <workItem from="1582270828712" duration="7773000" />
     </task>
     <servers />
   </component>

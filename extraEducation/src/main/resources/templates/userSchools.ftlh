@@ -39,14 +39,15 @@
         <#include "parts/schoolEdit.ftlh" />
     </#if>
 
-    <div class="card-columns">
+    <div>
         <#list schools as school>
-            <div class="card my-3">
+            <div class="m-2">
                 <#if school.filename??>
-                    <img src="/img/${school.filename}" class="card-img-top">
+                    <img src="/img/${school.filename}" class="rounded mx-auto d-block">
                 </#if>
-                <div class="m-2">
-                    <h4 class="card-title">${school.name}</h4>
+            </div>
+                <div>
+                    <h4 class="card-title text-center">${school.name}</h4>
                     <h6 class="card-title">${school.text}</h6><br/>
                     <h6 class="card-subtitle mb-2 text-muted">#${school.tag}</h6>
                 </div>

@@ -2,7 +2,7 @@
 <#include "parts/security.ftlh">
 
 <@c.page>
-    <div class="form-row">
+    <div class="form-row" xmlns="http://www.w3.org/1999/html">
         <div class="form-group col-md-6">
             <form method="get" action="/main" class="form-inline">
                 <input type="text" name="filter" class="form-control" value="${filter?ifExists}" placeholder="Search by subject" />
@@ -27,8 +27,10 @@
                         </#if>
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="text" class="form-control ${(textError??)?string('is-invalid', '')}"
-                               value="<#if school??>${school.text}</#if>" name="text" placeholder="Описание" />
+<#--                        <input type="text" class="form-control ${(textError??)?string('is-invalid', '')}"-->
+<#--                               value="<#if school??>${school.text}</#if>" name="text" placeholder="Описание" />-->
+                        <textarea class="form-control ${(textError??)?string('is-invalid', '')}" name="text"
+                                  placeholder="Описание" /><#if school??>${school.text}</#if></textarea>
                         <#if textError??>
                             <div class="invalid-feedback">
                                 ${textError}

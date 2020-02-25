@@ -14,8 +14,10 @@
                     </#if>
                 </div>
                 <div class="form-group col-sm-6">
-                    <input type="text" class="form-control ${(textError??)?string('is-invalid', '')}"
-                           value="<#if school??>${school.text}</#if>" name="text" placeholder="Описание" />
+<#--                    <input type="text" class="form-control ${(textError??)?string('is-invalid', '')}"-->
+<#--                           value="<#if school??>${school.text}</#if>" name="text" placeholder="Описание" />-->
+                    <textarea class="form-control ${(textError??)?string('is-invalid', '')}" name="text"
+                              placeholder="Описание" /><#if school??>${school.text}</#if></textarea>
                     <#if textError??>
                         <div class="invalid-feedback">
                             ${textError}
