@@ -12,13 +12,13 @@ public class School {
     private Integer id;
 
     @NotBlank(message = "Please fill the name")
-    @Length(max = 512, message = "Message too long (more than 4kB)")
+    @Length(max = 512, message = "Name too long")
     private String name;
     @NotBlank(message = "Please fill the text")
-    @Length(max = 8192, message = "Message too long (more than 4kB)")
+    @Length(max = 8192, message = "Text too long")
     private String text;
     @NotBlank(message = "Please fill the subject")
-    @Length(max = 255, message = "Message too long (more than 4kB)")
+    @Length(max = 50, message = "Tag too long")
     private String tag;
 
     @ManyToOne(fetch = FetchType.EAGER)

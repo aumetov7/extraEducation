@@ -17,9 +17,6 @@
                     <a class="btn btn-primary" href="/user-schools/${school.author.id}?school=${school.id}">
                         Edit
                     </a>
-<#--                    <a class="btn btn-primary" href="/school-delete/delete/${school.author.id}?school=${school.id}">-->
-<#--                        Delete-->
-<#--                    </a>-->
                 </#if>
             </div>
         </div>

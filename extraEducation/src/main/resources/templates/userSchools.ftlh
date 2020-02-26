@@ -3,13 +3,14 @@
 
 <@c.page>
     <h3>${userChannel.username}</h3>
-    <#if !isCurrentUser>
+    <#if !isCurrentUser && !isDirector>
         <#if isSubscriber>
             <a class="btn btn-info" href="/user/unsubscribe/${userChannel.id}">Unsubscribe</a>
         <#else>
             <a class="btn btn-info" href="/user/subscribe/${userChannel.id}">Subscribe</a>
        </#if>
     </#if>
+
     <div class="container my-3">
         <div class="row">
             <div class="col">
@@ -48,6 +49,7 @@
             </div>
                 <div>
                     <h4 class="card-title text-center">${school.name}</h4>
+<#--                    <textarea disabled class="card-title">${school.text}</textarea><br/>-->
                     <h6 class="card-title">${school.text}</h6><br/>
                     <h6 class="card-subtitle mb-2 text-muted">#${school.tag}</h6>
                 </div>
