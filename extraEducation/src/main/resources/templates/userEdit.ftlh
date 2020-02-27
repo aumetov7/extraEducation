@@ -21,7 +21,7 @@
         </#list>
         <input type="hidden" value="${user.id}" name="userId">
         <input type="hidden" value="${_csrf.token}" name="_csrf">
-        <td><button type="submit">Save</button></td>
+        <td><#if user.username != 'admin'><button type="submit">Save</button></#if></td>
         </tbody>
     </form>
     </table>

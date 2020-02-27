@@ -16,12 +16,12 @@
         <td>${user.lastName}</td>
         <#list roles as role>
             <td><div>
-                <label><input type="checkbox" name="${role}" ${user.roles?seq_contains(role)?string("checked", "")}>${role}</label>
+                <label><#if user.username != 'admin'><input type="checkbox" name="${role}" ${user.roles?seq_contains(role)?string("checked", "")}></#if>${role}</label>
             </div></td>
         </#list>
         <input type="hidden" value="${user.id}" name="userId">
         <input type="hidden" value="${_csrf.token}" name="_csrf">
-        <td><button type="submit">Save</button></td>
+        <td><#if user.username != 'admin'><button type="submit">Save</button></#if></td>
         </tbody>
     </form>
     </table>

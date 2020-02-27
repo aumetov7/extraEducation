@@ -22,7 +22,7 @@
             <td>${user.firstName}</td>
             <td>${user.lastName}</td>
             <td>${user.number}</td>
-            <td><a href="/user/${user.id}">edit</a></td>
+            <td><#if user.username != 'admin'><a href="/user/${user.id}">edit</a></#if></td>
         </tr>
     </#list>
     </tbody>
