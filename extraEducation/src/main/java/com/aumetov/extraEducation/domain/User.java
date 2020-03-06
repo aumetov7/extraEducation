@@ -30,6 +30,7 @@ public class User implements UserDetails {
     private String confirmPassword;
     private boolean active;
 
+    @NotBlank(message = "Number can not be empty")
     private String number;
 
     @Email(message = "Email is not correct")

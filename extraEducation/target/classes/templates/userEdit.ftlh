@@ -16,7 +16,7 @@
         <td>${user.lastName}</td>
         <#list roles as role>
             <td><div>
-                <label><#if user.username != 'admin'><input type="checkbox" name="${role}" ${user.roles?seq_contains(role)?string("checked", "")}></#if>${role}</label>
+                <label><input type="checkbox" name="${role}" ${user.roles?seq_contains(role)?string("checked", "")}>${role}</label>
             </div></td>
         </#list>
         <input type="hidden" value="${user.id}" name="userId">

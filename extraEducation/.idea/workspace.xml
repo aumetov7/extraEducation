@@ -2,38 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d897384d-0648-4722-a384-0dc3e43ff6f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aumetov/extraEducation/ServingWebContentApplication 2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB 2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_admin 2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V3__Add_subscriptions_table 2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userList.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/config/MailConfig 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/config/MvcConfig 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/config/WebSecurityConfig 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/ControllerUtils 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/MainController 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/MainController 2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/MainController 3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/RegistrationController 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/UserController 2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/UserController 2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/UserController 3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/domain/Role 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/domain/School 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/domain/User 3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/repository/SchoolRepository 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/repository/UserRepository 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/service/MailSender 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/service/SchoolService 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/service/UserService 2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__Init_DB 2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V2__Add_admin 2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V3__Add_subscriptions_table 2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles 2.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles 2.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles 2.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles 2.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aumetov/extraEducation/controller/ControllerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aumetov/extraEducation/controller/ControllerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aumetov/extraEducation/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aumetov/extraEducation/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/ControllerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/controller/ControllerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aumetov/extraEducation/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.ftlh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,6 +198,9 @@
       <workItem from="1582651405955" duration="3894000" />
       <workItem from="1582829695752" duration="1231000" />
       <workItem from="1582845745110" duration="1002000" />
+      <workItem from="1582847058023" duration="3671000" />
+      <workItem from="1583427451585" duration="1426000" />
+      <workItem from="1583480379316" duration="257000" />
     </task>
     <servers />
   </component>
@@ -231,7 +212,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
